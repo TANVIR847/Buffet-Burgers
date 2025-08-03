@@ -54,3 +54,69 @@ li a:hover{
     color: #435f42;
 }
 
+.content{
+    margin-left: 80px;
+    margin-top: 5rem;
+}
+
+
+.content{
+    color:#e4f7e2;
+    margin-left: 10rem;
+    margin-top: 8rem;
+}
+
+.content h1{
+    font-size: 62px;
+}
+
+
+.content h3{
+    font-size: 28px;
+}
+
+.par{
+    font-size: 22px;
+    position: absolute;
+}
+
+.bur{
+    width: 880px;
+    float: right;
+    margin-right: 3rem;
+    margin-top: -15rem;
+    opacity: 80%;
+}
+
+button{
+    width: 170px;
+    height: 50px;
+    border-radius: 20px;
+    border-style: none;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    background-color: #4366428c;
+    color: #e4f7e2;
+    transition: 0.6s ease 0s;
+}
+
+button:hover{
+    background-color:#e4f7e2;
+    color: #435f42;
+}
+
+
+.anim{
+    opacity: 0;
+    animation: moveup 0.8s linear forwards;
+    transform: translateY(30px);
+}
+
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
